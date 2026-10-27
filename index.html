@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Abinaya R — BCA Developer specializing in React.js, Web Development, and Network Security at The TipsGlobal Institute.">
+  <meta name="keywords" content="Abinaya R, Portfolio, Web Developer, React.js, Network Security, BCA, The TipsGlobal Institute, Sunstone">
+  <meta name="author" content="Abinaya R">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="icon" type="image/svg+xml" href="public/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Abinaya R | Developer Portfolio — React.js &amp; Network Security</title>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. NAVIGATION BAR
+       ========================================================================== -->
+  <header id="navbar">
+    <div class="container nav-container">
+      <!-- Logo / Brand -->
+      <a href="#home" class="nav-brand">
+        <div class="brand-badge">AR</div>
+        <div class="brand-text">
+          <span class="brand-name">Abinaya R</span>
+          <span class="brand-role">Aspiring Developer</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Resume CTAs & Mobile Hamburger -->
+      <div class="nav-actions">
+        <button id="preview-resume-btn" type="button" class="btn btn-secondary btn-sm" title="Preview Verified Resume Document">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+            <circle cx="12" cy="12" r="3"></circle>
+          </svg>
+          <span>Preview Resume</span>
+        </button>
+
+        <a href="Abinaya_R_Resume.pdf" download="Abinaya_R_Resume.pdf" class="btn btn-primary btn-sm nav-cta" title="Download Official PDF Resume">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Download PDF</span>
+        </a>
+
+        <button id="mobile-toggle-btn" class="btn-icon mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-menu">
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link active">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About Me</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#achievements" class="mobile-nav-link">Achievements</a></li>
+        <li><a href="#certifications" class="mobile-nav-link">Certifications</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-drawer-cta" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+        <button type="button" class="btn btn-secondary btn-sm" style="flex: 1; justify-content: center;" data-action="preview-resume">
+          <span>Preview Resume</span>
+        </button>
+        <a href="Abinaya_R_Resume.pdf" download="Abinaya_R_Resume.pdf" class="btn btn-primary btn-sm" style="flex: 1; justify-content: center;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Download PDF</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       2. HOME / HERO & PROFILE SECTION
+       ========================================================================== -->
+  <section id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Hero Left Column -->
+        <div>
+          <div class="hero-status-pill">
+            <span class="pulse-indicator"></span>
+            <span>Seeking Opportunities in Web Development &amp; Cybersecurity</span>
+          </div>
+
+          <h1 class="hero-name">Abinaya R</h1>
+
+          <div class="hero-title">
+            <span>Aspiring Developer</span>
+            <span style="color: var(--color-sage-300);">|</span>
+            <span style="color: var(--color-teal-700);">React.js &amp; Network Security</span>
+          </div>
+
+          <p class="hero-intro">
+            Hello! I'm Abinaya R, a BCA student passionate about web development, software development, and network security. I enjoy building responsive websites, learning new technologies, and solving programming problems. I am continuously improving my technical and problem-solving skills to prepare for a successful career in the IT industry.
+          </p>
+
+          <!-- Profile Control Hub: Update, Save, and Reset -->
+          <div class="profile-controls-hub">
+            <div class="profile-hub-label">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              <span>Profile Management:</span>
+            </div>
+            <button id="hero-edit-profile-btn" type="button" class="btn btn-primary btn-xs" title="Update Profile Details">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+              <span>Update Profile</span>
+            </button>
+            <button id="hero-save-profile-btn" type="button" class="btn btn-secondary btn-xs" title="Save profile changes to browser storage">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg>
+              <span>Save Profile</span>
+            </button>
+            <button id="hero-reset-profile-btn" type="button" class="btn btn-secondary btn-xs" title="Reset profile to original resume defaults">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path></svg>
+              <span>Reset Profile</span>
+            </button>
+            <button id="upload-resume-pdf-btn" type="button" class="btn btn-secondary btn-xs" title="Upload and update official resume PDF file">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+              <span>Update Resume PDF</span>
+            </button>
+            <input type="file" id="resume-file-input" accept=".pdf" style="display: none;">
+          </div>
+
+          <!-- Hero Action Buttons including Direct Resume Downloads & Previews -->
+          <div class="hero-btn-row">
+            <a href="Abinaya_R_Resume.pdf" download="Abinaya_R_Resume.pdf" class="btn btn-primary" title="Download Official PDF Resume">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </a>
+
+            <button id="hero-preview-resume-btn" type="button" class="btn btn-secondary" title="View Full Printable Resume">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+              <span>Preview Resume</span>
+            </button>
+
+            <a href="#projects" class="btn btn-secondary">
+              <span>View Projects</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Contact</span>
+            </a>
+          </div>
+
+          <!-- Social Links Bar with Direct Edit -->
+          <div class="hero-social-row">
+            <span style="font-size: 0.88rem; font-weight: 800; color: var(--color-pine-800);">Profiles:</span>
+            <a href="https://github.com/raviabinaya20106-del" target="_blank" rel="noopener noreferrer" id="hero-github-link" class="btn btn-secondary btn-sm" title="GitHub">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/abinaya-ravi-39a974354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" id="hero-linkedin-link" class="btn btn-secondary btn-sm" title="LinkedIn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" id="hero-leetcode-link" class="btn btn-secondary btn-sm" title="LeetCode Track">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+              <span>LeetCode</span>
+            </a>
+            <button id="open-profile-edit-btn" type="button" class="btn btn-outline-primary btn-xs" title="Edit Profiles &amp; Social Links">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+              <span>Edit Links</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Developer Profile Card -->
+        <div>
+          <div class="glass-panel hero-card">
+            <!-- Profile Photo Upload / Interactive -->
+            <div style="text-align: center; margin-bottom: 1.25rem;">
+              <div class="avatar-wrapper" id="profile-avatar-wrapper">
+                <img id="profile-avatar-img" src="profile.jpg" alt="Abinaya R" class="avatar-image">
+                <label for="profile-photo-input" class="avatar-upload-overlay" title="Click to upload/change your photo">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                  <span>Change Photo</span>
+                </label>
+                <input type="file" id="profile-photo-input" accept="image/*" style="display: none;">
+                <div class="avatar-badge" title="Developer Status Verified">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </div>
+              </div>
+
+              <div class="avatar-actions-row">
+                <button id="upload-photo-btn" class="btn btn-outline-primary btn-xs" type="button">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                  Upload Photo
+                </button>
+                <button id="reset-photo-btn" class="btn btn-secondary btn-xs" type="button" title="Reset to default photo">
+                  Reset Photo
+                </button>
+              </div>
+
+              <div id="card-hero-name" style="font-weight: 800; font-size: 1.35rem; color: var(--color-text-main); margin-top: 0.75rem;">Abinaya R</div>
+              <div id="card-hero-role" style="font-size: 0.88rem; color: var(--color-teal-700); font-weight: 700;">BCA Student &bull; The TipsGlobal Institute</div>
+            </div>
+
+            <!-- Developer Competencies Box -->
+            <div class="competencies-box">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem;">
+                <span style="font-size: 0.78rem; font-weight: 800; color: var(--color-pine-800); text-transform: uppercase; letter-spacing: 0.05em;">
+                  Technical Focus
+                </span>
+                <span style="display: flex; gap: 4px;">
+                  <span style="width: 7px; height: 7px; border-radius: 50%; background: var(--color-sage-300);"></span>
+                  <span style="width: 7px; height: 7px; border-radius: 50%; background: var(--color-teal-500);"></span>
+                  <span style="width: 7px; height: 7px; border-radius: 50%; background: var(--color-teal-700);"></span>
+                </span>
+              </div>
+
+              <div class="competency-item">
+                <div class="competency-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(30 12 12)"/>
+                    <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(90 12 12)"/>
+                    <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(150 12 12)"/>
+                    <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                  </svg>
+                </div>
+                <div>
+                  <div id="comp-1-title" style="font-size: 0.86rem; font-weight: 700; color: var(--color-text-main);">React.js Frontend</div>
+                  <div id="comp-1-desc" style="font-size: 0.76rem; color: var(--color-text-muted);">Components, Modern JavaScript, UI/UX</div>
+                </div>
+              </div>
+
+              <div class="competency-item">
+                <div class="competency-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div id="comp-2-title" style="font-size: 0.86rem; font-weight: 700; color: var(--color-text-main);">Network Security</div>
+                  <div id="comp-2-desc" style="font-size: 0.76rem; color: var(--color-text-muted);">Defense Concepts, Ciphers &amp; Safety</div>
+                </div>
+              </div>
+
+              <div class="competency-item">
+                <div class="competency-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div id="comp-3-title" style="font-size: 0.86rem; font-weight: 700; color: var(--color-text-main);">Algorithms &amp; DSA</div>
+                  <div id="comp-3-desc" style="font-size: 0.76rem; color: var(--color-text-muted);">Problem Solving &amp; Programming Logic</div>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1rem; background-color: var(--color-sage-100); border-radius: var(--radius-sm); border: 1px solid var(--color-sage-200); font-size: 0.825rem; font-weight: 700; color: var(--color-pine-900);">
+              <span>Expected Graduation</span>
+              <span style="font-weight: 800; color: var(--color-teal-700);">2027</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. ABOUT ME SECTION
+       ========================================================================== -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+          <span>Background &amp; Aspirations</span>
+        </div>
+        <h2 class="section-title">About Abinaya</h2>
+        <p class="section-description">
+          A dedicated computer applications student with a dual focus on engineering responsive web solutions and safeguarding network systems.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass-panel about-main-card">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+            <h3 style="font-size: 1.45rem; font-weight: 800; color: var(--color-text-main);">
+              Continuous Learning &amp; IT Preparation
+            </h3>
+            <button type="button" class="btn btn-outline-primary btn-xs" onclick="document.getElementById('hero-edit-profile-btn').click();">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+              <span>Update Bio</span>
+            </button>
+          </div>
+
+          <p id="about-lead-bio" style="font-size: 1.05rem; line-height: 1.75; color: var(--color-text-body); margin-bottom: 1.75rem;">
+            Hello! I'm Abinaya R, a BCA student passionate about web development, software development, and network security. I enjoy building responsive websites, learning new technologies, and solving programming problems. I am continuously improving my technical and problem-solving skills to prepare for a successful career in the IT industry.
+          </p>
+
+          <div class="about-highlights-grid">
+            <div class="highlight-box">
+              <div style="font-size: 1.75rem; font-weight: 800; color: var(--color-teal-700); margin-bottom: 0.25rem;">2024–2027</div>
+              <div style="font-size: 0.92rem; font-weight: 700; color: var(--color-text-main);">BCA Candidate</div>
+              <div style="font-size: 0.8rem; color: var(--color-text-muted);">The TipsGlobal Institute</div>
+            </div>
+
+            <div class="highlight-box">
+              <div style="font-size: 1.75rem; font-weight: 800; color: var(--color-teal-700); margin-bottom: 0.25rem;">2 Internships</div>
+              <div style="font-size: 0.92rem; font-weight: 700; color: var(--color-text-main);">Practical Experience</div>
+              <div style="font-size: 0.8rem; color: var(--color-text-muted);">Coding Blocks &amp; Live Wire</div>
+            </div>
+
+            <div class="highlight-box">
+              <div style="font-size: 1.75rem; font-weight: 800; color: var(--color-teal-700); margin-bottom: 0.25rem;">5 Verified</div>
+              <div style="font-size: 0.92rem; font-weight: 700; color: var(--color-text-main);">Certifications</div>
+              <div style="font-size: 0.8rem; color: var(--color-text-muted);">Oracle, AWS, IBM, Live Wire</div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="pillars-box">
+            <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--color-pine-900); margin-bottom: 1.25rem;">
+              Core Engineering Focus
+            </h3>
+
+            <div class="pillar-row">
+              <div class="competency-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <div>
+                <div style="font-weight: 700; font-size: 0.95rem; color: var(--color-text-main);">Responsive Frontend Development</div>
+                <div style="font-size: 0.85rem; color: var(--color-text-body);">Proficient in HTML, CSS, JavaScript, React.js, and Node.js for intuitive web applications.</div>
+              </div>
+            </div>
+
+            <div class="pillar-row">
+              <div class="competency-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <div>
+                <div style="font-weight: 700; font-size: 0.95rem; color: var(--color-text-main);">Network Defense &amp; Cryptography</div>
+                <div style="font-size: 0.85rem; color: var(--color-text-body);">Hands-on understanding of threat mitigation, network traffic analysis, and cryptographic safety.</div>
+              </div>
+            </div>
+
+            <div class="pillar-row">
+              <div class="competency-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+              </div>
+              <div>
+                <div style="font-weight: 700; font-size: 0.95rem; color: var(--color-text-main);">Algorithmic Rigor &amp; Problem Solving</div>
+                <div style="font-size: 0.85rem; color: var(--color-text-body);">Active practice on LeetCode covering arrays, linked lists, trees, and Big O complexity analysis.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. TECHNICAL SKILLS SECTION (DYNAMIC ADD, EDIT, DELETE, RESET)
+       ========================================================================== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+          <span>Capabilities</span>
+        </div>
+        <h2 class="section-title">Technical &amp; Soft Skills</h2>
+        <p class="section-description">
+          A structured matrix of technical development capabilities, security foundations, database systems, and professional collaboration skills.
+        </p>
+      </div>
+
+      <!-- Skills Controls Bar -->
+      <div class="section-controls-bar">
+        <div style="display: flex; align-items: center; gap: 0.65rem;">
+          <span style="font-weight: 800; color: var(--color-text-main); font-size: 0.95rem;">Skills Inventory</span>
+          <span id="skills-count-badge" class="term-count-badge">Loading Skills...</span>
+        </div>
+        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+          <button id="add-skill-btn" class="btn btn-primary btn-sm" type="button" title="Add a new skill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <span>+ Add Skill</span>
+          </button>
+          <button id="reset-skills-btn" class="btn btn-secondary btn-sm" type="button" title="Reset all skills to resume defaults">
+            Reset Skills
+          </button>
+        </div>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="skills-filter-row">
+        <button class="skill-filter-btn active" data-filter="all">All Disciplines</button>
+        <button class="skill-filter-btn" data-filter="web">Web Development</button>
+        <button class="skill-filter-btn" data-filter="cyber">Cybersecurity</button>
+        <button class="skill-filter-btn" data-filter="programming">Programming</button>
+        <button class="skill-filter-btn" data-filter="db">Database &amp; Cloud</button>
+        <button class="skill-filter-btn" data-filter="soft">Soft Skills</button>
+      </div>
+
+      <!-- Dynamic Skills Categories -->
+      <div class="skills-grid">
+        <!-- Web Development -->
+        <div class="glass-panel skill-group-card" data-category="web">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.5rem;">
+            <div class="card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            </div>
+            <div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--color-text-main);">Web Development</h3>
+              <span style="font-size: 0.8rem; color: var(--color-teal-700); font-weight: 700;">Frontend &amp; Responsive Layouts</span>
+            </div>
+          </div>
+          <div class="skill-badges-wrapper"></div>
+        </div>
+
+        <!-- Cybersecurity -->
+        <div class="glass-panel skill-group-card" data-category="cyber">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.5rem;">
+            <div class="card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--color-text-main);">Cybersecurity</h3>
+              <span style="font-size: 0.8rem; color: var(--color-teal-700); font-weight: 700;">Network Defense &amp; Protocols</span>
+            </div>
+          </div>
+          <div class="skill-badges-wrapper"></div>
+        </div>
+
+        <!-- Programming Languages -->
+        <div class="glass-panel skill-group-card" data-category="programming">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.5rem;">
+            <div class="card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--color-text-main);">Programming Languages</h3>
+              <span style="font-size: 0.8rem; color: var(--color-teal-700); font-weight: 700;">Logic &amp; Object-Oriented</span>
+            </div>
+          </div>
+          <div class="skill-badges-wrapper"></div>
+        </div>
+
+        <!-- Database & Cloud -->
+        <div class="glass-panel skill-group-card" data-category="db">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.5rem;">
+            <div class="card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+            </div>
+            <div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--color-text-main);">Database &amp; Cloud</h3>
+              <span style="font-size: 0.8rem; color: var(--color-teal-700); font-weight: 700;">Relational DB &amp; Cloud Systems</span>
+            </div>
+          </div>
+          <div class="skill-badges-wrapper"></div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="glass-panel skill-group-card" data-category="soft">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.5rem;">
+            <div class="card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            </div>
+            <div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--color-text-main);">Soft Skills</h3>
+              <span style="font-size: 0.8rem; color: var(--color-teal-700); font-weight: 700;">Communication &amp; Professional Execution</span>
+            </div>
+          </div>
+          <div class="skill-badges-wrapper"></div>
+        </div>
+      </div>
+
+      <!-- Section Resume Callout -->
+      <div class="section-resume-callout">
+        <div style="display: flex; align-items: center; gap: 0.85rem;">
+          <div class="card-icon-box" style="width: 38px; height: 38px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+          </div>
+          <div>
+            <div style="font-weight: 800; font-size: 0.95rem; color: var(--color-text-main);">Full Technical Competency Documentation</div>
+            <div style="font-size: 0.85rem; color: var(--color-text-body);">View Abinaya's complete resume or download the verified PDF copy.</div>
+          </div>
+        </div>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <button type="button" class="btn btn-secondary btn-sm" data-action="preview-resume">Preview Resume</button>
+          <a href="Abinaya_R_Resume.pdf" download="Abinaya_R_Resume.pdf" class="btn btn-primary btn-sm">Download PDF</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. INTERNSHIP & EXPERIENCE SECTION (DYNAMIC ADD, EDIT, DELETE, RESET)
+       ========================================================================== -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+          </svg>
+          <span>Internship History</span>
+        </div>
+        <h2 class="section-title">Practical Experience</h2>
+        <p class="section-description">
+          Industry internships providing hands-on immersion in web software development, responsive engineering, and proactive cybersecurity defense.
+        </p>
+      </div>
+
+      <!-- Experience Controls Bar -->
+      <div class="section-controls-bar">
+        <div style="display: flex; align-items: center; gap: 0.65rem;">
+          <span style="font-weight: 800; color: var(--color-text-main); font-size: 0.95rem;">Experience Entries</span>
+          <span id="experience-count-badge" class="term-count-badge">Loading Tracks...</span>
+        </div>
+        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+          <button id="add-exp-btn" class="btn btn-primary btn-sm" type="button" title="Add a new experience">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <span>+ Add Experience</span>
+          </button>
+          <button id="reset-exp-btn" class="btn btn-secondary btn-sm" type="button" title="Reset experiences to defaults">
+            Reset Experience
+          </button>
+        </div>
+      </div>
+
+      <div class="timeline-wrapper">
+        <div class="timeline-line"></div>
+        <!-- Dynamic Experience Items Injected by script.js -->
+        <div id="experience-container"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. PROJECTS SECTION (DYNAMIC ADD, EDIT, DELETE, RESET)
+       ========================================================================== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+          <span>Featured Work</span>
+        </div>
+        <h2 class="section-title">Projects &amp; Problem Solving</h2>
+        <p class="section-description">
+          Practical software implementations showcasing responsive React interfaces, clean component structures, and algorithmic logic practice.
+        </p>
+      </div>
+
+      <!-- Projects Controls Bar -->
+      <div class="section-controls-bar">
+        <div style="display: flex; align-items: center; gap: 0.65rem;">
+          <span style="font-weight: 800; color: var(--color-text-main); font-size: 0.95rem;">Active Projects</span>
+          <span id="projects-count-badge" class="term-count-badge">Loading...</span>
+        </div>
+        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+          <button id="add-project-btn" class="btn btn-primary btn-sm" type="button" title="Add a new project">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <span>+ Add Project</span>
+          </button>
+          <button id="reset-projects-btn" class="btn btn-secondary btn-sm" type="button" title="Reset projects to resume defaults">
+            Reset Projects
+          </button>
+        </div>
+      </div>
+
+      <!-- Dynamic Projects Grid -->
+      <div id="projects-container" class="projects-grid"></div>
+
+      <!-- Section Resume Callout -->
+      <div class="section-resume-callout">
+        <div style="display: flex; align-items: center; gap: 0.85rem;">
+          <div class="card-icon-box" style="width: 38px; height: 38px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+          </div>
+          <div>
+            <div style="font-weight: 800; font-size: 0.95rem; color: var(--color-text-main);">Comprehensive Technical Portfolio PDF</div>
+            <div style="font-size: 0.85rem; color: var(--color-text-body);">Download the official print-ready curriculum vitae documenting all repositories and achievements.</div>
+          </div>
+        </div>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <button type="button" class="btn btn-secondary btn-sm" data-action="preview-resume">Preview Document</button>
+          <a href="Abinaya_R_Resume.pdf" download="Abinaya_R_Resume.pdf" class="btn btn-primary btn-sm">Download PDF</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. ACHIEVEMENTS SECTION (DYNAMIC ADD, EDIT, DELETE, RESET)
+       ========================================================================== -->
+  <section id="achievements" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="8" r="7"></circle>
+            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+          </svg>
+          <span>Honors &amp; Recognitions</span>
+        </div>
+        <h2 class="section-title">Achievements &amp; Awards</h2>
+        <p class="section-description">
+          Campus awards and competitive recognitions earned at The TipsGlobal Institute across programming, academic quizzes, debates, and creative design.
+        </p>
+      </div>
+
+      <!-- Achievements Controls Bar -->
+      <div class="section-controls-bar">
+        <div style="display: flex; align-items: center; gap: 0.65rem;">
+          <span style="font-weight: 800; color: var(--color-text-main); font-size: 0.95rem;">Honors &amp; Awards</span>
+          <span id="achievements-count-badge" class="term-count-badge">Loading...</span>
+        </div>
+        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+          <button id="add-ach-btn" class="btn btn-primary btn-sm" type="button" title="Add a new achievement">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <span>+ Add Achievement</span>
+          </button>
+          <button id="reset-achs-btn" class="btn btn-secondary btn-sm" type="button" title="Reset achievements to defaults">
+            Reset Achievements
+          </button>
+        </div>
+      </div>
+
+      <!-- Dynamic Achievements Grid -->
+      <div id="achievements-container" class="achievements-grid"></div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. CERTIFICATIONS SECTION (DYNAMIC ADD, EDIT, DELETE, RESET)
+       ========================================================================== -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+            <path d="M7 7h10M7 11h10M7 15h6"></path>
+            <circle cx="17" cy="15" r="2"></circle>
+          </svg>
+          <span>Verified Credentials</span>
+        </div>
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-description">
+          Professional industry certifications validating core competencies in database engineering, cloud systems, web programming, and cybersecurity.
+        </p>
+      </div>
+
+      <!-- Certifications Controls Bar -->
+      <div class="section-controls-bar">
+        <div style="display: flex; align-items: center; gap: 0.65rem;">
+          <span style="font-weight: 800; color: var(--color-text-main); font-size: 0.95rem;">Credentials</span>
+          <span id="certifications-count-badge" class="term-count-badge">Loading...</span>
+        </div>
+        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+          <button id="add-cert-btn" class="btn btn-primary btn-sm" type="button" title="Add a new certification">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <span>+ Add Certificate</span>
+          </button>
+          <button id="reset-certs-btn" class="btn btn-secondary btn-sm" type="button" title="Reset certifications to defaults">
+            Reset Certifications
+          </button>
+        </div>
+      </div>
+
+      <!-- Dynamic Certifications Grid -->
+      <div id="certifications-container" class="certifications-grid"></div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. EDUCATION SECTION (DYNAMIC ADD, EDIT, DELETE, RESET)
+       ========================================================================== -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+          </svg>
+          <span>Academic Milestones</span>
+        </div>
+        <h2 class="section-title">Education</h2>
+        <p class="section-description">
+          Academic progression from secondary school foundations to specialized undergraduate studies in Computer Applications.
+        </p>
+      </div>
+
+      <!-- Education Controls Bar -->
+      <div class="section-controls-bar">
+        <div style="display: flex; align-items: center; gap: 0.65rem;">
+          <span style="font-weight: 800; color: var(--color-text-main); font-size: 0.95rem;">Academic Progression</span>
+          <span id="education-count-badge" class="term-count-badge">Loading...</span>
+        </div>
+        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+          <button id="add-edu-btn" class="btn btn-primary btn-sm" type="button" title="Add an education entry">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <span>+ Add Education</span>
+          </button>
+          <button id="reset-edu-btn" class="btn btn-secondary btn-sm" type="button" title="Reset education to defaults">
+            Reset Education
+          </button>
+        </div>
+      </div>
+
+      <div class="timeline-wrapper">
+        <div class="timeline-line"></div>
+        <!-- Dynamic Education Items Injected by script.js -->
+        <div id="education-container"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       10. CONTACT SECTION
+       ========================================================================== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <span>Direct Inquiry</span>
+        </div>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-description">
+          Feel free to reach out regarding internship opportunities, collaborative web development projects, or technical discussions.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Details Card -->
+        <div class="glass-panel" style="padding: 2.25rem; display: flex; flex-direction: column;">
+          <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--color-text-main); margin-bottom: 1.5rem;">
+            Contact Details
+          </h3>
+
+          <div style="display: flex; flex-direction: column; gap: 1.5rem; flex-grow: 1;">
+            <!-- Email -->
+            <div style="display: flex; align-items: flex-start; gap: 1rem;">
+              <div class="card-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div>
+                <div style="font-size: 0.8rem; font-weight: 700; color: var(--color-teal-700); text-transform: uppercase; letter-spacing: 0.04em;">Email Address</div>
+                <a href="mailto:raviabinaya20106@gmail.com" id="contact-email-link" style="font-size: 1.05rem; font-weight: 700; color: var(--color-pine-900); word-break: break-all;">
+                  raviabinaya20106@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div style="display: flex; align-items: flex-start; gap: 1rem;">
+              <div class="card-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div>
+                <div style="font-size: 0.8rem; font-weight: 700; color: var(--color-teal-700); text-transform: uppercase; letter-spacing: 0.04em;">Phone Number</div>
+                <a href="tel:8940764662" id="contact-phone-link" style="font-size: 1.05rem; font-weight: 700; color: var(--color-pine-900);">
+                  +91 8940764662
+                </a>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div style="display: flex; align-items: flex-start; gap: 1rem;">
+              <div class="card-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <div style="font-size: 0.8rem; font-weight: 700; color: var(--color-teal-700); text-transform: uppercase; letter-spacing: 0.04em;">Location</div>
+                <div id="contact-location-text" style="font-size: 1.05rem; font-weight: 700; color: var(--color-text-main);">
+                  Nilgiris, Tamil Nadu, India
+                </div>
+              </div>
+            </div>
+
+            <!-- Phone Notice Policy -->
+            <div style="background-color: var(--color-sage-50); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-medium); margin-top: auto;">
+              <div style="display: flex; align-items: center; justify-content: space-between;">
+                <span style="font-size: 0.85rem; font-weight: 700; color: var(--color-text-main);">Phone Privacy Policy</span>
+                <button id="phone-toggle-btn" type="button" style="background: none; border: none; color: var(--color-teal-700); font-size: 0.78rem; font-weight: 700; cursor: pointer; text-decoration: underline;">
+                  View policy
+                </button>
+              </div>
+              <p id="phone-notice-text" style="display: none; font-size: 0.82rem; color: var(--color-text-body); margin-top: 0.5rem; line-height: 1.5;">
+                Direct phone calls or WhatsApp messages are available during business hours for official internship or recruitment correspondence.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Connect Channels -->
+        <div class="glass-panel" style="padding: 2.25rem; display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--color-text-main); margin-bottom: 0.75rem;">
+              Connect With Me
+            </h3>
+            <p style="font-size: 0.95rem; color: var(--color-text-body); line-height: 1.65; margin-bottom: 1.5rem;">
+              Whether you have an inquiry about internships, development projects, or networking, feel free to connect through any of the channels below.
+            </p>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 0.85rem;">
+            <a href="mailto:raviabinaya20106@gmail.com" class="btn btn-primary" style="justify-content: center; width: 100%;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>Email Me Directly</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/abinaya-ravi-39a974354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" id="contact-linkedin-link" class="btn btn-secondary" style="justify-content: center; width: 100%;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              <span>Connect on LinkedIn</span>
+            </a>
+
+            <a href="https://github.com/raviabinaya20106-del" target="_blank" rel="noopener noreferrer" id="contact-github-link" class="btn btn-secondary" style="justify-content: center; width: 100%;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              <span>Explore GitHub Repositories</span>
+            </a>
+
+            <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" id="contact-leetcode-link" class="btn btn-secondary" style="justify-content: center; width: 100%;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              <span>Solve on LeetCode</span>
+            </a>
+
+            <a href="Abinaya_R_Resume.pdf" download="Abinaya_R_Resume.pdf" class="btn btn-secondary" style="justify-content: center; width: 100%;" title="Download Official PDF Resume">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download Official Resume PDF</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       11. FOOTER
+       ========================================================================== -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div style="max-width: 380px;">
+          <div style="display: flex; align-items: center; gap: 0.65rem; margin-bottom: 0.75rem;">
+            <div style="width: 36px; height: 36px; border-radius: 8px; background: var(--color-teal-700); color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.1rem; border: 1px solid var(--color-sage-300);">
+              AR
+            </div>
+            <span id="footer-name" style="font-size: 1.4rem; font-weight: 800; color: #ffffff;">
+              Abinaya R
+            </span>
+          </div>
+
+          <p id="footer-tagline" style="font-size: 0.92rem; color: var(--color-sage-200); line-height: 1.6; margin-bottom: 1rem;">
+            Aspiring Developer | React.js &amp; Network Security
+          </p>
+
+          <p style="font-size: 0.82rem; color: var(--color-sage-300); line-height: 1.5;">
+            BCA Student at The TipsGlobal Institute. Dedicated to building responsive web applications and safeguarding systems.
+          </p>
+        </div>
+
+        <div>
+          <div style="font-size: 0.9rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-sage-200); margin-bottom: 1rem;">
+            Quick Links
+          </div>
+          <div class="footer-nav-grid">
+            <a href="#home" style="color: var(--color-sage-100); font-size: 0.88rem;">Home</a>
+            <a href="#about" style="color: var(--color-sage-100); font-size: 0.88rem;">About Me</a>
+            <a href="#skills" style="color: var(--color-sage-100); font-size: 0.88rem;">Skills</a>
+            <a href="#experience" style="color: var(--color-sage-100); font-size: 0.88rem;">Experience</a>
+            <a href="#projects" style="color: var(--color-sage-100); font-size: 0.88rem;">Projects</a>
+            <a href="#achievements" style="color: var(--color-sage-100); font-size: 0.88rem;">Achievements</a>
+            <a href="#certifications" style="color: var(--color-sage-100); font-size: 0.88rem;">Certifications</a>
+            <a href="#education" style="color: var(--color-sage-100); font-size: 0.88rem;">Education</a>
+            <a href="#contact" style="color: var(--color-sage-100); font-size: 0.88rem;">Contact</a>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+          <div style="font-size: 0.9rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-sage-200);">
+            Social Profiles
+          </div>
+
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="https://github.com/raviabinaya20106-del" id="footer-github-link" target="_blank" rel="noopener noreferrer" class="btn-icon" title="GitHub" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #ffffff;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+
+            <a href="https://www.linkedin.com/in/abinaya-ravi-39a974354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" id="footer-linkedin-link" target="_blank" rel="noopener noreferrer" class="btn-icon" title="LinkedIn" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #ffffff;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+
+            <a href="https://leetcode.com" id="footer-leetcode-link" target="_blank" rel="noopener noreferrer" class="btn-icon" title="LeetCode" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #ffffff;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </a>
+          </div>
+
+          <button id="back-to-top" class="btn btn-outline-white btn-sm" style="margin-top: 0.5rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+            <span>Back to Top</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="current-year">2026</span> Abinaya R. All rights reserved.
+        </div>
+        <div>
+          Handcrafted Portfolio &bull; Built with Pure HTML, CSS &amp; JavaScript
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       12. FLOATING QUICK-RESUME DOCK (ACCESSIBLE ACROSS ALL SECTIONS)
+       ========================================================================== -->
+  <aside class="floating-resume-dock" aria-label="Quick Resume Access">
+    <div class="dock-meta">
+      <span class="dock-pulse"></span>
+      <span>Abinaya R &bull; Official Resume</span>
+    </div>
+    <div class="dock-actions">
+      <button id="dock-preview-resume-btn" type="button" class="btn btn-secondary btn-xs" title="Preview Verified Resume">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        <span>Preview</span>
+      </button>
+      <a href="Abinaya_R_Resume.pdf" download="Abinaya_R_Resume.pdf" class="btn btn-primary btn-xs" title="Download Official PDF Resume">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        <span>Download PDF</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       13. REUSABLE MODAL DIALOG
+       ========================================================================== -->
+  <div id="custom-modal" class="modal-backdrop" role="dialog" aria-modal="true">
+    <div class="glass-panel modal-dialog">
+      <div class="modal-header">
+        <h3 id="modal-title" style="font-size: 1.15rem; font-weight: 800; color: var(--color-text-main);">Modal Title</h3>
+        <button id="modal-close-btn" aria-label="Close dialog" style="background: transparent; border: none; color: var(--color-pine-800); cursor: pointer; padding: 0.35rem; display: flex; align-items: center; justify-content: center;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div id="modal-body" class="modal-body">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Vanilla JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
